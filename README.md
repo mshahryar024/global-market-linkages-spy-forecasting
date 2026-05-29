@@ -10,32 +10,6 @@ This project builds a SARIMAX + GARCH(1,1) forecasting pipeline for next-day S&P
 - **Validation:** Rolling walk-forward, 143 expanding windows, 3,003 out-of-sample forecasts
 - **Tools:** Python, statsmodels, arch, yfinance, pandas-datareader, matplotlib, Streamlit
 
-## 🗂️ Repository Structure
-
-```
-global-market-linkages-spy-forecasting/
-├── data/
-│   ├── raw/                    # Raw Yahoo Finance & FRED downloads
-│   └── processed/              # Cleaned, merged, return-transformed data
-├── notebooks/
-│   ├── 01_data_collection.ipynb
-│   ├── 02_eda_stationarity.ipynb
-│   ├── 03_sarimax_estimation.ipynb
-│   ├── 04_garch_volatility.ipynb
-│   └── 05_walk_forward_validation.ipynb
-├── src/
-│   ├── data_pipeline.py
-│   ├── sarimax_model.py
-│   ├── garch_model.py
-│   └── evaluation.py
-├── plots/                      # Figures plot_18 through plot_25
-├── streamlit_app/app.py
-├── docs/
-│   ├── capstone_paper.pdf
-│   └── presentation_slides.pdf
-├── requirements.txt
-└── README.md
-```
 
 ## 📊 Key Visualizations
 
