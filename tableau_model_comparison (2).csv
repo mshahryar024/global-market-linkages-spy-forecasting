@@ -1,0 +1,4 @@
+Model,AIC,Directional_Hit_Rate,RMSE,MAE,Has_Global_Vars
+"Auto-ARIMA(2,0,0)",-23514.42,55.1,0.010571,0.006943,No
+"Manual ARIMA(1,0,1)",-23508.71,55.1,0.010571,0.006943,No
+SARIMAX + Global Vars,-26987.75,79.5,0.007084,0.004446,Yes
